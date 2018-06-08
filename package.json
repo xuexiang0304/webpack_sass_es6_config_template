@@ -7,10 +7,10 @@
 	},
 	"license": "ISC",
 	"version": "0.0.1",
-	"description": "spartan internal web app",
+	"description": "config sample for webpack 4",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Logic1Systems/Spartan-Nav2-React.git"
+		"url": "https://github.com/xuexiang0304/webpack_sass_es6_config_template.git"
 	},
 	"dependencies": {
 		"react": "^16.4.0",
