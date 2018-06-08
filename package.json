@@ -1,0 +1,50 @@
+{
+	"name": "React-webpack4-Config",
+	"scripts": {
+		"start": "webpack-dev-server --hot --inline --config webpack.dev.config.js",
+		"build": "webpack --config webpack.dev.config.js",
+		"product": "webpack --config webpack.prod.config.js"
+	},
+	"license": "ISC",
+	"version": "0.0.1",
+	"description": "spartan internal web app",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Logic1Systems/Spartan-Nav2-React.git"
+	},
+	"dependencies": {
+		"react": "^16.4.0",
+		"react-dom": "^16.4.0",
+		"webpack": "^4.11.1"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.4",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-2": "^6.24.1",
+		"bootstrap": "^4.1.1",
+		"bootstrap-loader": "^3.0.0",
+		"bootstrap-sass": "^3.3.7",
+		"copy-webpack-plugin": "^4.5.1",
+		"css-loader": "^0.28.11",
+		"file-loader": "^1.1.11",
+		"font-awesome": "^4.7.0",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^3.2.0",
+		"jquery": "^3.3.1",
+		"mini-css-extract-plugin": "^0.4.0",
+		"node-sass": "^4.9.0",
+		"popper.js": "^1.14.3",
+		"react-bootstrap": "^0.32.1",
+		"react-bootstrap-table": "^4.3.1",
+		"react-color": "^2.14.1",
+		"resolve-url-loader": "^2.3.0",
+		"sass-loader": "^7.0.3",
+		"style-loader": "^0.21.0",
+		"uglifyjs-webpack-plugin": "^1.2.5",
+		"url-loader": "^1.0.1",
+		"webpack-cli": "^3.0.3",
+		"webpack-dev-server": "^3.1.4"
+	}
+}
